@@ -1,0 +1,61 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Build output
+# =========================
+dist/
+build/
+
+# =========================
+# Capacitor
+# =========================
+.capacitor/
+
+# =========================
+# Android
+# =========================
+android/.gradle/
+android/build/
+android/app/build/
+*.apk
+*.aab
+
+# =========================
+# iOS
+# =========================
+ios/App/build/
+ios/DerivedData/
+
+# Xcode user files
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Environment
+# =========================
+.env
+.env.*
